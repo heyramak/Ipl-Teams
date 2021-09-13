@@ -58,11 +58,5 @@ public class Team {
     public void setMatches(List<Match> matches) {
         this.matches = matches;
     }
-
-    
-    
-    
-    
-
     
 }

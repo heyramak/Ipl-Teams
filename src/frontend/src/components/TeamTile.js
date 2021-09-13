@@ -4,34 +4,34 @@ import { Link } from 'react-router-dom';
 import teamImages from './TeamImages.json'
 import './TeamTile.scss';
 
-const getLogoAccordingToTeam = (team) =>{
+const getLogoAccordingToTeam = (team) => {
     var teamNames = teamImages;
-    var image = teamNames[team] ? teamNames[team] :"";
+    var image = teamNames[team] ? teamNames[team] : "";
     return image;
 
 }
-const getImagePath =(teamName)=>{
-   let img = getLogoAccordingToTeam(teamName);
-  img= img.replace(/['"]+/g, "");
-   return (
-    <img  className="logoImg" src={`../images/${img}.png`} alt=""  />
-  );
+const getImagePath = (teamName) => {
+    let img = getLogoAccordingToTeam(teamName);
+    img = img.replace(/['"]+/g, "");
+    return (
+        <img className="logoImg" src={`../images/${img}.png`} alt="" />
+    );
 }
 
-export const TeamTile = ({teamName}) => {
+export const TeamTile = ({ teamName }) => {
 
 
 
     return (
         <div className="TeamTile">
             <h1>
-                    <Link to={`/teams/${teamName}`}>
-                        {teamName}
-                    </Link>
-                </h1>
                 <Link to={`/teams/${teamName}`}>
-						{getImagePath(teamName)}
-                    </Link>
+                    {teamName}
+                </Link>
+            </h1>
+            <Link to={`/teams/${teamName}`}>
+                {getImagePath(teamName)}
+            </Link>
         </div>
     )
 }
