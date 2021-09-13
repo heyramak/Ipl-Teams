@@ -15,7 +15,7 @@ body {
   font-family: 'Rubik', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image:url("./bg1.jpg");
+  background-image:url("./bg.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

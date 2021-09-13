@@ -11,4 +11,26 @@
     .page-heading {
         margin: 20px auto;
     }
+    select{
+        width: 80px;
+        height: 35px;
+        border: 3px solid #00000050;
+        border-color: black;
+        border-style: double;
+        opacity: 1;
+        margin: 0 0 0 5px;
+        margin: 10px;
+    }
+    input{
+    width: 140px;
+    height: 35px;
+    border: 3px solid #00000050;
+    border-color: black;
+    border-style: double;
+    text-align: center;
+    opacity: 1;
+    margin: 0 5px;
+    font-size: 15px;
+    }
+
 }
