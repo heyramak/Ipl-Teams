@@ -1,5 +1,5 @@
 # Ipl teams match histroy 
-**Match histroy of each and every Ipl teams that played.**
+**Match history of each and every Ipl teams that played.**
 [View Demo](http://ipldashboard-env.eba-fqygmjbp.ap-south-1.elasticbeanstalk.com/#/)
 # Technologies used
 * Spring Boot
